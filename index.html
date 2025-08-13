@@ -1,0 +1,30 @@
+<html>
+<head>
+    <base href="/edu-sharing/web-components/app/">
+    <script>
+        window.__env = {
+            // in this example, we proxy everything to prevent CORS
+            EDU_SHARING_API_URL: '/edu-sharing/rest',
+        };
+    </script>
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="polyfills.js" type="module"></script>
+    <script src="scripts.js" defer></script>
+    <script src="main.js" type="module"></script>
+</head>
+<body style="padding: 20px 10%">
+<h1>Hello, OEH Web Components!</h1>
+<hr>
+<h3>Readme</h3>
+
+<hr>
+<h3>Inhalte Teaser</h3>
+<widget-user-configurable search-text="Optik" context-node-id="9e7ae956-e9df-430f-bace-f3db4b910013" node-id="9e7ae956-e9df-430f-bace-f3db4b910013"></widget-user-configurable>
+<!--   <h3>Themenseite Topic header</h3>
+<widget-topic-header
+       context-node-id="9e2ecea3-f6e1-4e87-a154-d4fd7c0bf6d0"
+       node-id=""
+       collection-node=""
+></widget-topic-header>-->
+</body>
+</html>
